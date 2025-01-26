@@ -13,7 +13,7 @@ app.use(express.json());
 connectDB();
 
 // routes
-app.use("/",userCreate);
+app.use("/", userCreate);
 
 app.listen(process.env.PORT, () => console.log("Server ready on port 3000."));
 
